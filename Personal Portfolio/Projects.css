@@ -1,0 +1,432 @@
+body::before {
+    content: "";
+    position: fixed;
+    top: 0px;
+    left: -15px;
+    background: url("bg1.jpg") no-repeat center center/cover;
+    opacity: 1;
+    filter: blur(17px);
+    z-index: -1;
+    width: 102%;
+    height: 105%;
+}
+
+.set {
+    width: 98%;
+    height: 3400px;
+    left: 10px;
+    position: absolute;
+}
+
+.container-1 {
+    width: 99.8%;
+    height: 10%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.navbar ul img {
+    position: relative;
+    top: 0px;
+    right: 60px;
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    position: relative;
+    bottom: 20px;
+    align-items: center;
+    background-color: rgb(242, 255, 1);
+    width: 97.6%;
+    height: 80px;
+    list-style: none;
+    z-index: 3;
+}
+
+.navbar ul li a {
+    position: relative;
+    left: -80px;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+.navbar ul li a:hover {
+    color: rgb(3, 82, 37);
+    cursor: pointer;
+}
+
+.container-2 {
+    position: absolute;
+    top: 100px;
+    width: 10%;
+    height: 20%;
+}
+
+.container-2 img{
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    width: 250%;
+    height: 50%;
+    z-index: -1;
+}
+
+.container-2 h1 {
+    position: relative;
+    left: 700px;
+    color: white;
+    width: 650px;
+    font-weight: bold;
+    text-shadow: 4px 4px 2px rgb(121, 1, 121);
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-2 p {
+    width: 600px;
+    position: relative;
+    left: 705px;
+    color: aqua;
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.container-2 hr {
+    position: absolute;
+    top: 700px;
+}
+
+.line1 {
+    position: absolute;
+    color: white;
+    top: 560px;
+    background-color: white;
+    width: 100%;
+    height: 2px;
+}
+
+.container-3 {
+    position: absolute;
+    top: 600px;
+    width: 10%;
+    height: 20%;
+}
+
+.container-3 img{
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    width: 350%;
+    height: 50%;
+    z-index: -1;
+}
+
+.container-3 h1 {
+    position: relative;
+    left: 700px;
+    color: white;
+    width: 650px;
+    font-weight: bold;
+    text-shadow: 4px 4px 2px rgb(121, 1, 121);
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-3 p {
+    width: 600px;
+    position: relative;
+    left: 705px;
+    color: aqua;
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.container-3 hr {
+    position: absolute;
+    top: 700px;
+}
+
+.line2 {
+    position: absolute;
+    color: white;
+    top: 1060px;
+    background-color: white;
+    width: 100%;
+    height: 2px;
+}
+
+.container-4 {
+    position: absolute;
+    top: 1120px;
+    width: 10%;
+    height: 20%;
+}
+
+.container-4 img{
+    position: absolute;
+    top: -15px;
+    left: 60px;
+    width: 340%;
+    height: 70%;
+    z-index: -1;
+}
+
+.container-4 h1 {
+    position: relative;
+    left: 700px;
+    color: white;
+    width: 650px;
+    font-weight: bold;
+    text-shadow: 4px 4px 2px rgb(121, 1, 121);
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-4 p {
+    width: 600px;
+    position: relative;
+    left: 705px;
+    color: aqua;
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.container-4 hr {
+    position: absolute;
+    top: 700px;
+}
+
+.line3 {
+    position: absolute;
+    color: white;
+    top: 1700px;
+    background-color: white;
+    width: 100%;
+    height: 2px;
+}
+
+.container-5 {
+    position: absolute;
+    top: 1740px;
+    width: 10%;
+    height: 20%;
+}
+
+.container-5 img{
+    position: absolute;
+    top: -20px;
+    left: 60px;
+    width: 340%;
+    height: 60%;
+    z-index: -1;
+}
+
+.container-5 h1 {
+    position: relative;
+    left: 700px;
+    color: white;
+    width: 650px;
+    font-weight: bold;
+    text-shadow: 4px 4px 2px rgb(121, 1, 121);
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-5 p {
+    width: 600px;
+    position: relative;
+    left: 705px;
+    color: aqua;
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.container-5 hr {
+    position: absolute;
+    top: 700px;
+}
+
+.line4 {
+    position: absolute;
+    color: white;
+    top: 2240px;
+    background-color: white;
+    width: 100%;
+    height: 2px;
+}
+
+.container-6 {
+    position: absolute;
+    top: 2280px;
+    width: 10%;
+    height: 20%;
+}
+
+.container-6 img{
+    position: absolute;
+    top: -10px;
+    left: 60px;
+    width: 340%;
+    height: 60%;
+    z-index: -1;
+}
+
+.container-6 h1 {
+    position: relative;
+    left: 700px;
+    color: white;
+    width: 650px;
+    font-weight: bold;
+    text-shadow: 4px 4px 2px rgb(121, 1, 121);
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-6 p {
+    width: 600px;
+    position: relative;
+    left: 705px;
+    color: aqua;
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.container-6 hr {
+    position: absolute;
+    top: 700px;
+}
+
+.line5 {
+    position: absolute;
+    color: white;
+    top: 2780px;
+    background-color: white;
+    width: 100%;
+    height: 2px;
+}
+
+.container-7 {
+    position: absolute;
+    top: 2820px;
+    width: 10%;
+    height: 20%;
+}
+
+.container-7 img{
+    position: absolute;
+    top: -10px;
+    left: 60px;
+    width: 340%;
+    height: 50%;
+    z-index: -1;
+}
+
+.container-7 h1 {
+    position: relative;
+    left: 700px;
+    color: white;
+    width: 650px;
+    font-weight: bold;
+    text-shadow: 4px 4px 2px rgb(121, 1, 121);
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-7 p {
+    width: 600px;
+    position: relative;
+    left: 705px;
+    color: aqua;
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.container-7 hr {
+    position: absolute;
+    top: 700px;
+}
+
+.line6 {
+    position: absolute;
+    color: white;
+    top: 3300px;
+    background-color: white;
+    width: 100%;
+    height: 2px;
+}
+
+.container-8 {
+    position: absolute;
+    top: 3340px;
+    width: 10%;
+    height: 20%;
+}
+
+.container-8 img{
+    position: absolute;
+    top: -30px;
+    left: -100px;
+    width: 550%;
+    height: 60%;
+    z-index: -1;
+}
+
+.container-8 h1 {
+    position: relative;
+    left: 700px;
+    color: white;
+    width: 650px;
+    font-weight: bold;
+    text-shadow: 4px 4px 2px rgb(121, 1, 121);
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-8 p {
+    width: 600px;
+    position: relative;
+    left: 705px;
+    color: aqua;
+    font-family: monospace;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.container-8 hr {
+    position: absolute;
+    top: 700px;
+}
+
+.line7 {
+    position: absolute;
+    color: white;
+    top: 3800px;
+    background-color: white;
+    width: 100%;
+    height: 2px;
+}
+
+.footer h1 {
+    position: absolute;
+    top: 4000px;
+    font-family: monospace;
+    padding: 10px 10px;
+    left: 0px;
+    width: 98.8%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
